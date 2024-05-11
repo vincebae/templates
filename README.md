@@ -6,3 +6,5 @@
   * Quarkus
 * Clojure
 * Scala
+  * sbt / Zio
+  * scala-cli

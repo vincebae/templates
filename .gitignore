@@ -1,9 +1,104 @@
+# macOS
+.DS_Store
+
 # Ignore Gradle project-specific cache directory
 .gradle
 
 # Ignore Gradle build output directory
 build
 bin
+**/target
+**/classes
+**/checkouts
+**/profiles.clj
+**/pom.xml
+**/pom.xml.asc
+**/*.jar
+**/*.class
+**/.clj-kondo/
+**/.lein-*
+**/.lsp
+**/.nrepl-port
+**/.prepl-port
+**/.hgignore
+**/.hg/
+tags
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+*.class
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.swp
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+*.swp
+*__pycache__
+*.swp
+/target
+*.swp
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -13,13 +108,17 @@ bin
 .settings
 .springBeans
 .sts4-cache
-*.class
 
 ### IntelliJ IDEA ###
 .idea
+.idea_modules
+/.worksheet/
 *.iws
 *.iml
 *.ipr
+
+### VS Code
+.vscode/
 
 ### NetBeans ###
 /nbproject/private/
@@ -32,6 +131,27 @@ bin
 ### Vim ###
 *.swp
 
+### Java
+*.jar
+*.class
+/lib/
+/classes/
+/target/
+/checkouts/
+
+### Clojure ###
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
+.cpcache/
+.lsp/
+.clj-kondo/
+
+# Scala
+.scala-build
+
 # sbt specific
 dist/*
 target/
@@ -41,11 +161,16 @@ project/boot/
 project/plugins/project/
 project/local-plugins.sbt
 .history
+.ensime
+.ensime_cache/
+.sbt-scripted/
+local.sbt
+
+# Bloop
 .bsp
 
-# Scala
-.scala-build
-.metals
-
-
+# Metals
+.bloop/
+.metals/
+metals.sbt
 

@@ -5,9 +5,9 @@ Scala CLI application template with these toolkits
 * [Picocli](https://picocli.info/)
 * [ScalaTest](https://www.scalatest.org/)
 
-## Usages
+# Usages
 
-Run the command:
+Run:
 ```
 $ scala-cli run MyApp.scala
 
